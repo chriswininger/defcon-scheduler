@@ -9,9 +9,9 @@ body {
 
 .App-header {
   background-color: #222;
-  height: 2.5em;
+  height: 3.5em;
   color: white;
-  padding: 0px;
+  padding: 3px;
   margin: 0px;
 }
 
@@ -23,4 +23,9 @@ body {
 
 .App-intro {
   font-size: large;
+}
+
+
+td.timeCol {
+  width: 14%;
 }

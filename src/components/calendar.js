@@ -8,7 +8,7 @@ export default class Calendar extends React.Component {
   }
 
   render() {
-    const colClasses = 'col-sm justify-content-center'
+    const colClasses =  'talkCol' //'col-sm justify-content-center'
     const extractLocations = (talks) => {
       return Object.keys(talks.reduce((acc, talk) => {
         return { ...acc, [talk.location]: true }
@@ -18,18 +18,22 @@ export default class Calendar extends React.Component {
     const groupTalksByHourAndRooms = (talks) => {
       const hours = {}
       const talkSlots = 4 // pad all everything to six location columns
-      const numDays = 4
       const numHours = 24
       const dayMap = [
         new Date('2018-08-09T00:00:00.000Z'),
         new Date('2018-08-10T00:00:00.000Z'),
         new Date('2018-08-11T00:00:00.000Z'),
-        new Date('2018-08-12T00:00:00.000Z')
+        new Date('2018-08-12T00:00:00.000Z'),
+        new Date('2018-08-13T00:00:00.000Z')
       ]
+      const numDays = dayMap.length
 
-
+      console.log('!!! numDays: ' + numDays)
       // go through each day of the conference
       for (let day = 0; day < numDays; day++) {
+
+        console.log('!!! checking days: ' + dayMap[day])
+
         // every hour of the day
         for (let hour = 1; hour <= numHours; hour++) {
           // get a date object for this day and hour
@@ -72,48 +76,55 @@ export default class Calendar extends React.Component {
       const locations = Object.keys(talksByRoom)
 
       // get a column for each talk
-      const talks = locations.sort().map((loc) => {
+      const talks = locations.sort().map((loc, ndx) => {
         const talksThisHourThisRoom = talksByRoom[loc]
 
         if (talksThisHourThisRoom === 'EMPTY') {
           // empty place holder column
           return (
-              <div className={colClasses}></div>
+              <td id={`talk-empty-${ndx}-${Math.round(Math.random() * 1000000)} `} className={colClasses}></td>
           )
         } else {
           return (
-              <div className={colClasses}>
+              <td id={`talk-${ndx}-${Math.round(Math.random() * 1000000)}`} className={colClasses}>
                 {talksThisHourThisRoom.map(t => (<div>{t.title}</div>))}
-              </div>
+              </td>
           )
         }
       })
 
       // return a row for each hour with a column for time followed by talk columns
       return (
-          <div className="row">
-            <div className={colClasses}>
-              { timeKey }
-            </div>
+          <tr>
+            <td className='timeCol'>
+              { new Date(timeKey).toLocaleDateString() + ' '  + new Date(timeKey).toLocaleTimeString() }
+            </td>
             { talks }
-          </div>
+          </tr>
       )
     })
 
     const headersJSX = extractLocations(this.state.talks).map((location) => {
       return (
-          <div className={colClasses}>
+          <th scope="col" className={colClasses}>
             { location }
-          </div>)
+          </th>)
     })
 
     return (
-        <div className="defcon-scheduler-calendar container">
-          <div className="row">
+        <table className="defcon-scheduler-calendar table table-dark table-bordered table-hover">
+          <thead>
+            <tr>
+              <th scope="col" className={colClasses}>
+                Time
+              </th>
             {  headersJSX }
-          </div>
+            </tr>
+          </thead>
+          <tbody>
           { talksJSX }
-        </div>
+          </tbody>
+        </table>
     )
   }
 
