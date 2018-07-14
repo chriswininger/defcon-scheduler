@@ -97,7 +97,7 @@ export default class Calendar extends React.Component {
       return (
           <tr>
             <td className='timeCol'>
-              { new Date(timeKey).toLocaleDateString() + ' '  + new Date(timeKey).toLocaleTimeString() }
+              { new Date(timeKey).toLocaleDateString('en-US', { timeZone: 'UTC' }) + ' '  + new Date(timeKey).toLocaleTimeString('en-US', { timeZone: 'UTC' }) }
             </td>
             { talks }
           </tr>
