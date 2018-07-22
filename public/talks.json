@@ -152,6 +152,14 @@
         "abstract": "Ten years ago, DEF CON 101 was founded by HighWiz as a way to introduce n00bs to DEF CON.  The idea was to help attendees get the best experience out of DEF CON (and also tell them how to survive the weekend!).  The DEF CON 101 panel has been a way for people who have participated in making DEF CON what it is today to share those experiences and, hopefully, inspire attendees to expand their horizons.  DEF CON offers so much more than just talks and the DEF CON 101 panel is the perfect place to learn about all things DEF CON so you, dear reader, can  get the best experience possible.  The panel will end with the time honored tradition of \"Name the n00b\" where lucky attendees will be brought up on stage to introduce themselves to you and earn the coveted 101 n00b handle.  Don't worry if you don't make it on to the stage, there will be plenty of other prizes for you to enjoy!"
     },
     {
+        "title": "D0 N0 H4RM: A Healthcare Security Conversation",
+        "speaker": "D0 N0 H4RM: A Healthcare Security Conversation",
+        "time": "2018-08-10T20:00:00.000Z",
+        "location": "Octavius 9",
+        "duration": "Fireside Hax",
+        "abstract": "Healthcare cybersecurity is in critical condition. That's not FUD, that's the bottom line from the Congressionally mandated Health Care Industry Cybersecurity Task Force report released just last year, a year which also saw the twin specters of WannaCry and NotPetya take down entire hospital systems while over half a million implanted pacemakers were recalled in the fallout of one of the most (ir?)responsible disclosures in recent memory. It's enough to make any concerned white hat reach for a stiff drink. And that's where we come in. After an incredibly successful, near-fire-code-violating jam packed session at DC25 as an Evening Lounge, 'D0 N0 H4rm' is diving deeper and going longer as it transforms into a Fireside Hax, assembling an even larger and more distinguished panel of expert hackers, policymakers, wonks, and health care providers to continue discussing, dissecting, and most importantly, debating the ways to keep patients safe in an increasingly perilous space. Featuring continuous audience interaction and with the same loose and informal flow that characterized the initial, libation rich hotel room gatherings, moderators quaddi and r3plicant invite you to add your voice to this incredibly important conversation. Pin this one down quickly, pre-registration is going to go fast."
+    },
+    {
         "title": "Your Bank's Digital Side Door",
         "speaker": "Your Bank's Digital Side Door",
         "time": "2018-08-10T17:00:00.000Z",
@@ -248,6 +256,14 @@
         "abstract": "While most IoT accessory manufacturers have a narrow area of focus, Xiaomi, an Asian based vendor, controls a vast IoT ecosystem, including smart lightbulbs, sensors, cameras, vacuum cleaners, network speakers, electric scooters and even washing machines. In addition, Xiaomi also manufactures smartphones. Their products are sold not only in Asia, but also in Europe and North America. The company claims to have the biggest IoT platform worldwide.\n\nIn my talk, I will give a brief overview of the most common, Wi-Fi based, Xiaomi IoT devices. Their devices may have a deep integration in the daily life (like vacuum cleaners, smart toilet seats, cameras, sensors, lights).\n\nI will focus on the features, computational power, sensors, security and ability to root the devices. Let’s explore how you can have fun with the devices or use them for something useful, like mapping Wi-Fi signal strength while vacuuming your house. I will also cover some interesting things I discovered while reverse engineering Xiaomi's devices and discuss which protections were deployed by the developers (and which not).\n\nBe prepared to see the guts of many of these devices. We will exploit them and use them to exploit other devices."
     },
     {
+        "title": "Beyond the Lulz:  Black-Hat Trolling, White-Hat Trolling, Attacking and Defending Our Attention Landscape",
+        "speaker": "Beyond the Lulz:  Black-Hat Trolling, White-Hat Trolling, Attacking and Defending Our Attention Landscape",
+        "time": "2018-08-11T20:00:00.000Z",
+        "location": "Octavius 9",
+        "duration": "Fireside Hax",
+        "abstract": "White hat or critical grey hat trolling? Trolling as art? Trolling as hybrid warfare? Trolling as propaganda? In this Fireside Hax, we will challenge your assumptions about trolling. Trolls are attention hackers, using social and technical means to bait journalists, set agendas, game media gatekeepers, and direct audiences. Sometimes they also have fun. We will discuss a range of trolling techniques like sockpuppeting, dogpiling, doxing, attention honeypots, and cognitive denial of service attacks that we have not seen concisely catalogued elsewhere. We will also discuss high-profile examples of trolling such as\"training\" the Microsoft Tay chatbot, fake Antifa accounts, Russian sockpuppet accounts, and Phineas Fisher's use of Hacking Team's twitter account--and ask attendees to consider each as black hat attacks or grey hat attempts to point out critical societal vulnerabilities that should be\"patched.\" We will also talk about\"troll the troll\" accounts like ImposterBuster and YesYoureRacist and the role\"white hat trolls\" might play in auditing platforms or proposing platform-based controls. Time permitting, we will discuss art projects that trollishly critiqued the European Commission, Google AdSense, and the NSA. This will not be a lecture and it will not shy away from controversy. Join two members of the Media Manipulation Team at Data & Society to collectively consider the role trolling can play in pointing out the flaws in our attention/media landscape."
+    },
+    {
         "title": "Pwning \"the toughest target\": the exploit chain of winning the largest bug bounty in the history of ASR program",
         "speaker": "Pwning \"the toughest target\": the exploit chain of winning the largest bug bounty in the history of ASR program",
         "time": "2018-08-09T11:00:00.000Z",
@@ -312,12 +328,20 @@
         "abstract": "Pre-installed apps and firmware pose a risk due to vulnerabilities that can be pre-positioned on a device, rendering the device vulnerable on purchase. This means that the vulnerabilities are present even before the user enables wireless communications and starts installing third-party apps. To quantify the exposure of the Android end-users to vulnerabilities residing within pre-installed apps and firmware, we analyzed a wide range of Android vendors and carriers using devices spanning from low-end to flagship. Our primary focus was exposing pre-positioned threats on Android devices sold by United States (US) carriers, although our results affect devices worldwide. We will provide details of vulnerabilities in devices from all four major US carriers, as well two smaller US carriers, among others. The vulnerabilities we discovered on devices offered by the major US carriers are the following: arbitrary command execution as the system user, obtaining the modem logs and logcat logs, wiping all user data from a device (i.e., factory reset), obtaining and modifying a user’s text messages, sending arbitrary text messages, and getting the phone numbers of the user’s contacts, and more. All of the aforementioned capabilities are obtained outside of the normal Android permission model. Including both locked and unlocked devices, we provide details for 37 unique vulnerabilities affecting 25 Android devices with 11 of them being sold by US carriers. In this talk, we will present our framework that is capable of discovering 0-day vulnerabilities from binary firmware images and applications at scale allowing us to continuously monitor devices across different manufacturers and firmware versions. During the talk, we plan to perform a live demo of how our system works."
     },
     {
-        "title": "TBA",
-        "speaker": "TBA",
+        "title": "NSA Talks Cybersecurity",
+        "speaker": "NSA Talks Cybersecurity",
         "time": "2018-08-10T11:00:00.000Z",
         "location": "Track 1",
         "duration": "45 minutes",
-        "abstract": ""
+        "abstract": "The National Security Agency (NSA) has authorities for both foreign intelligence and cyber security.  This unique position gives NSA insights into the ways networks are exploited and the methods that are effective in defending against threats.  Over time, NSA has adapted the focus of its security efforts and continues to evolve with technologies and the adversaries we face.  The talk will look back at some of the inflection points that have influenced NSA and US Government cybersecurity efforts and look at what is necessary to stay safe in the new environment.\n"
+    },
+    {
+        "title": "Building Absurd Christmas Light Shows",
+        "speaker": "Building Absurd Christmas Light Shows",
+        "time": "2018-08-11T12:00:00.000Z",
+        "location": "101 Track",
+        "duration": "45 minutes",
+        "abstract": "Learn about the elements that go into a computerized light display and how you outfit your own house with dazzling blinking lights set to music.  Components of the show are individually explained and live demonstrations of the technology are on display.  Come get inspired to computerize your  own holiday cheer!"
     },
     {
         "title": "Dragnet—Your Social Engineering Sidekick",
@@ -365,7 +389,7 @@
         "time": "2018-08-11T10:00:00.000Z",
         "location": "101 Track, Flamingo",
         "duration": "45 minutes",
-        "abstract": "In 2017, FireEye conducted an incident response at a critical infrastructure facility where a sophisticated threat actor deployed the TRITON attack framework for implanting Safety Instrumented System (SIS) controllers with a passive backdoor, which would allow an attacker to inject potentially destructive payloads at a later point in time. TRITON is the most complex publicly known embedded system exploit to date. While the functionality of the malware is understood, little known about attacker efforts when developing such an implant. With a timeline of exploit development like TRITON being in a year range, complex embedded exploitation is currently considered to be a boutique hacking. However, the public release of much of the TRITON code can now facilitate less experienced threat actors with designing similar exploits. The goal of this talk is to provide the audience with a\"through the eyes of the attacker\" experience when designing advanced embedded systems exploits for Industrial Control Systems (ICS). This talk is based on our extensive experience in reverse engineering Real Time Operating Systems (RTOS)/firmwares and developing embedded exploits to cause physical damage. In the first part of the talk we will explain how to convert an 'undocumented device' into malicious code. We will share how to purchase industrial equipment and obtain needed documentation. After obtaining control over an embedded system, an actual attack still need to be performed. In the second part of the talk will concentrate on discovering exploitable firmware and hardware design features which would allow an attacker to impact industrial controller functions. We will present several scenarios such as hijacking internal clock, suppressing interrupts (IRQ config attack) and manipulation of the interrupt vector table (IVT), CPU pin configuration attack and placing code into TCM cache so it would not be even visible in the memory. The TRITON payload can be thought of as a four-stage shellcode. Attack code related to first three stages constituted a discussed backdoor implant capable of receiving and executing the fourth stage. This stage would have been an actual 'physical damage payload' performing the disruptive operations. However, the attacker was discovered while preparing the implant, before advancing to physical damage stage. In this part of the talk we will show how one can symbolically execute TRITON using ANGR framework and test a code for damage scenario written for any CPU/hardware architecture of choice. Developing embedded exploits requires a significant amount of effort but it is totally worth of investment. While a small fraction of asset owners is slowly embracing ICS network monitoring solutions, the attackers are going one layer lower—into the control equipment (race-to-the-bottom). Developing embedded implants is worth the efforts due to lacking tools for detecting such implants and we will see more of advanced embedded exploitation in the nearest future."
+        "abstract": "In 2017 a malware framework dubbed TRITON (also referred to as TRISIS or HatMan) was discovered targeting a petrochemical plant in Saudi Arabia. TRITON was designed to compromise the Schneider Electric Triconex line of Safety Instrumented Systems (SIS), potentially in order to cause physical damage. TRITON is the most complex publicly known ICS attack framework to date and the first publicly known one to target safety controllers. While the functionality of the malware is understood, little is known about the complexity of developing such an implant. The goal of this talk is to provide the audience with a “through the eyes of the attacker” experience in designing advanced embedded systems exploits & implants for Industrial Control Systems (ICS). Attendees will learn about the background of the TRITON incident, the process of reverse-engineering and exploiting ICS devices and developing implants and OT payloads as part of a cyber-physical attack and will be provided with details on real-world ICS vulnerabilities and implant strategies.\n\nIn the first part of the talk we will provide an introduction to ICS attacks in general and the TRITON incident in particular. We will outline the danger of TRITON being repurposed by copycats and estimate the complexity and development cost of such offensive ICS capabilities.\n\nIn the second and third parts of the talk we will discuss the process of exploiting ICS devices to achieve code execution and developing ICS implants and OT payloads. We will discuss real-world ICS vulnerabilities and present several implant scenarios such as arbitrary code execution backdoors (as used in TRITON), pin configuration attacks, protocol handler hooking to spoof monitored signal values, suppressing interrupts & alarm functionality, preventing implant removal and control logic restoration and achieving cross-boot persistence. We will discuss several possible OT payload scenarios and how these could be implemented on ICS devices such as the Triconex safety controllers.\n\nIn the final part of the talk we'll wrap up our assessment of the complexity & cost of developing offensive ICS capabilities such as the TRITON attack and offer recommendations to defenders and ICS vendors."
     },
     {
         "title": "The L0pht Testimony, 20 Years Later (and Other Things You Were Afraid to Ask)",
@@ -382,14 +406,6 @@
         "location": "Track 3",
         "duration": "45 minutes",
         "abstract": "While you may not always be aware of them or even have heard of them, Crestron devices are everywhere. They can be found in universities, modern office buildings, sports arenas, and even high-end Las Vegas hotel rooms. If an environment has a lot of audio/video infrastructure, needs to interconnect or automate different IoT and building systems, or just wants the shades to close when the TV is turned on, chances are high that a Crestron device is controlling things from behind the scenes. And as these types of environments become the norm and grow ever more complex, the number of systems that Crestron devices are connected to grows as well. But it is in large part because of this complexity that installing and programming these devices is difficult enough without considering adding security. Instead of being a necessity, it's an extra headache that almost always gets entirely passed over. In this talk, I will take a look at different Crestron devices from a security perspective and discuss the many vulnerabilities and opportunities for fun to be found within. I will demonstrate both documented and undocumented features that can be used to achieve full system compromise and show the need to make securing these systems a priority, instead of an afterthought, in every deployment. In short, hijinx will ensue."
-    },
-    {
-        "title": "NSAPlayset: Audio",
-        "speaker": "NSAPlayset: Audio",
-        "time": "2018-08-11T12:00:00.000Z",
-        "location": "101 Track, Flamingo",
-        "duration": "45 minutes",
-        "abstract": "NSA Playset is back just in time for the 1983 theme of DEF CON 26!  The NSA is the best Big Brother that we could have.  But, if you've always been asking yourself: Where does he get those wonderful toys?  You're in for some good news.  Now you can play along, too. We're building covert listening devices!  Capturing audio of the target has long been an intelligence goldmine and modern developments in signal processing make the loot even more valuable.  While implanted listening devices has a large body of open knowledge, we explore an area with a dearth of public knowledge and years of covert use.  We'll show off several of the approaches we took, including an updated and modernized use of RF retroreflection. Best of all, we'll do the neighborly thing and publish the technical details of the things we get working—and the things that don't work—to make it accessible and easy to do it all at home."
     },
     {
         "title": "I'll See Your Missile and Raise You A MIRV: An overview of the Genesis Scripting Engine",
@@ -536,6 +552,14 @@
         "abstract": "We will present a sample scene and panel talk on our documentary series Reverse Engineering to the hacking community, which has been in the works for 4 years. We have dozens of interviews spanning the first 3 decades of computer hacking, ultimately there will be hundreds. It's a big story, but for the purposes of DEF CON, we've put together a 17 min. Scene covering the 80s WarGames/Legion of Doom-era of computer hacking in the US.  We've spoken to great people, but there are other viewpoints—this is a history that needs to be told by 1st person accounts. The accuracy and strength of our completed series is tantamount to the quality of who we interview and the questions that get asked. Accuracy is particularly important, there's been no shortage of media hype and lies regarding hacking since the 1980s.  Our vision for this film series is inclusive and collaborative. We'd like to hear from attendees how to best tell the origin story of hacking to new generations, and more so the outside world who've been fed a lot of myths by the media. Those are the lawmakers and citizens of tomorrow that we need to reach. Little attention has been paid to the pioneering hacker spirit that has literally changed every aspect of life. We want to address and correct that."
     },
     {
+        "title": "EFF Fireside Hax (AKA Ask the EFF)",
+        "speaker": "EFF Fireside Hax (AKA Ask the EFF)",
+        "time": "2018-08-11T20:00:00.000Z",
+        "location": "Roman Chillout",
+        "duration": "Fireside Hax",
+        "abstract": "Relax and enjoy a Fireside Hax chat while you get the latest information about how the law is racing to catch up with technological change from staffers at the Electronic Frontier Foundation, the nation's premiere digital civil liberties group fighting for freedom and privacy in the computer age. This Fireside Hax discussion will include updates on current EFF issues such as the government's effort to undermine encryption (and add backdoors), the fight for network neutrality, discussion of our technology projects to spread encryption across the Web and emails, updates on cases and legislation affecting security research, and much more.  Half the session will be given over to question-and-answer, so it's your chance to ask EFF questions about the law and technology issues that are important to you."
+    },
+    {
         "title": "Revolting Radios",
         "speaker": "Revolting Radios",
         "time": "2018-08-10T14:00:00.000Z",
@@ -558,6 +582,14 @@
         "location": "101 Track, Flamingo",
         "duration": "45 minutes",
         "abstract": "Phone-based mobile money is becoming the dominant paradigm for financial services in the developing world processing more than a billion dollars per day for over 690 million users. For example, mPesa has an annual cash flow of over thirty billion USD, equivalent to nearly half of Kenya's GDP. Numerous other products exist inside of nearly every other market, including GCash in the Philippines and easyPaisa in Pakistan. As a part of this growth, competitors have appeared who leverage ThinSIMS, small SIM card add ons, to provide alternative mobile money implementations without operating their own mobile networks. However, the security implications of ThinSIMs are not well understood. This talk dives into decade old telecom standards to explore how ThinSIMs work and what attackers of mobile money systems can do when they control the interface between the SIM card and the phone.  We will also demo two proof of concept exploits that use ThinSIMs to steal money from mobile money platforms and detail the difficulties of defense."
+    },
+    {
+        "title": "Oh Noes!—A Role Playing Incident Response Game",
+        "speaker": "Oh Noes!—A Role Playing Incident Response Game",
+        "time": "2018-08-10T20:00:00.000Z",
+        "location": "Roman Chillout",
+        "duration": "Fireside Hax",
+        "abstract": "The term\"incident response exercise\" can strike fear in the hearts of even the mostly steely-eyed professional. The idea of sitting around a table, talking through a catastrophic security event can be both simultaneously exhausting and incredibly boring. However, what instead of an participating in an\"incident response exercise,\" you instead got to plan an\"incident response role playing game?\" Enter our IR roleplaying game,\"Oh Noes! An Adventure Through the Cybers and Shit.\" As part of our day job, we do quarterly IR exercises. In order to make these exercises more engaging, more fun, and more useful, we turned these exercises into a role playing game. We found it so useful and fun, we're releasing it at DEF CON along with numerous scenarios for your dungeon master to take you through. At this talk, we will talk about gamifying IR exercises and the rules of Oh Noes! We will equip you with dice and your own character sheet and we will walk you through the character creating process. That's right, in Oh Noes! you create your own character with specific skills and abilities that you level up as you play. A group of us will play through a short scenario so you can see how the game works. We will provide several sample scenarios, some ripped from the headlines (and some cribbed from @badthingsdaily) as well as provide guidance on what makes successful scenarios as you transition to be your own dungeon master."
     },
     {
         "title": "All your family secrets belong to us—Worrisome security issues in tracker apps",
@@ -680,6 +712,14 @@
         "abstract": "The 3DS was one of Nintendo's first serious attempts at security, featuring a cool microkernel based OS and actual exploit mitigations. That didn't stop it from getting hacked pretty hard, making it possible for people to write their own homebrew software for the console. But Nintendo isn't one to back off from a fight and, as a result, has put significant effort into not only fixing vulnerabilities but also introducing new security features targeted specifically at killing exploit techniques used by hackers. This talk will describe hacking the console through all these defensive features by walking through a 0-day exploit chain that takes us all the way from zero access to a full system jailbreak."
     },
     {
+        "title": "Privacy Is Equality—And It's Far from Dead",
+        "speaker": "Privacy Is Equality—And It's Far from Dead",
+        "time": "2018-08-11T20:00:00.000Z",
+        "location": "Octavius 13",
+        "duration": "Fireside Hax",
+        "abstract": "A talk at DEF CON 25 claimed that privacy is \"gone and never coming back.\" This talk offers a different view, inviting the audience to see privacy as fundamentally about equality-something we have never fully had but also should never regard as gone.\n\nThe speaker is a human rights lawyer and investigator, and will draw on decades of human rights thinking about state surveillance as well as her 2017 revelations about Defense Department monitoring of \"homegrown violent extremists.\" Adopting a feminist and race-conscious perspective and inviting audience participation, the talk will challenge received wisdom about basic concepts such as privacy, national security, the warrant requirement, and online radicalization. With a view to the future, it will also offer a thought-provoking history of the connections between privacy and equality in the United States-and the ways unchecked surveillance operates to categorize us and reinforce divisions between us.\n\nIt is easy to forget that _1984_ was partly a story about poverty and economic inequality. This talk embraces Orwell's insight into the connection between the erosion of privacy and a dangerous loss of equality, and carries it forward."
+    },
+    {
         "title": "Inside the Fake Science Factory",
         "speaker": "Inside the Fake Science Factory",
         "time": "2018-08-11T16:00:00.000Z",
@@ -715,7 +755,7 @@
         "title": "The Road to Resilience: How Real Hacking Redeems this Damnable Profession",
         "speaker": "The Road to Resilience: How Real Hacking Redeems this Damnable Profession",
         "time": "2018-08-11T17:00:00.000Z",
-        "location": "Track 2",
+        "location": "Track 1",
         "duration": "45 minutes",
         "abstract": "Two years ago Richard Thieme spoke on “Playing Through the Pain: The Impact of Dark Knowledge on Security and Intelligence Professionals” for Def Con 24. He relied on dozens of experiences provided by colleagues over a quarter-century, colleagues from NSA, CIA, corporate, and military. Responses to the presentation have often been emotional and have corroborated his thesis. The real impact of this work on people over the long term has to be mitigated by counter-measures and strategies so scars can be endured or,even better,incorporated and put to use.\n\nIn this presentation, Thieme elaborates those strategies and counter-measures. In what is likely his final speech at Def Con, he speaks directly to the “human in the machine” AS a human being. It’s not about leaving the profession: it’s about what we can do to thrive and transcend the challenges. It‘s about “saving this space,” this play space of hacking, work and life, and knowing the cost of being fully human while encountering dehumanizing impacts.\n\nIt is easier to focus on exploits, cool tools, zero days, and the games we play in the space that “makes us smile.” It is not so easy to know how to play through the pain successfully. The damage to us does not show up in brain scans. It shows up in our families, our relationships, and our lives.\n\nThieme is not preaching, he is sharing insights based on what he too has had to transcend in his own life. They call a lot of us “supernormals,” which means we discovered resilient responses to deprivation, abuse, profound loss … or the daily challenges of work that makes clear that evil is real. We are driven, we never quit, we fight through adversity, we create and recreate personas that work, we do what has to be done. It pays to know how we do that and know THAT we know so we can recreate resilience in the face of whatever comes our way. \n\nA contractor for NSA suggested that everyone inside the agency should see the video of “Playing Through the Pain.” A long-time Def Con attendee asks all new hires to watch “Staring into the Abyss,” a talk Thieme did a few years before. This subject matter is seldom discussed aloud “out here” and by all accounts is not taken seriously “inside,” which is perhaps why there have been half a dozen suicides lately at NSA and a CIA veteran said, “I have 23 suicides on my mind, the most recent senior people who could not live with what they knew.”\n\nThe assumption baked into this talk: real hacking, its ethos and its execution, provides the tools we need to do this damn thing right.\nThis talk is in honor of Perry Barlow and the EFF."
     },
@@ -774,6 +814,14 @@
         "location": "Track 3",
         "duration": "20 minutes",
         "abstract": "Barcodes and barcode scanners are ubiquitous in many industries and work with untrusted data on labels, boxes, and even phone screens. Most scanners also allow programming via barcodes to manipulate and inject keystrokes. See the problem? By scanning a few programming barcodes, you can infect a scanner and access the keyboard of the host device, letting you type commands just like a Rubber Ducky. This culminates in barcOwned—a small web app that allows you to program scanners and execute complex, device-agnostic payloads in seconds. Possible applications include keystroke injection (including special keys), infiltration and exfiltration of data on air-gapped systems, and good ol' denial of service attacks."
+    },
+    {
+        "title": "Disrupting the Digital Dystopia or What the hell is happening in computer law?",
+        "speaker": "Disrupting the Digital Dystopia or What the hell is happening in computer law?",
+        "time": "2018-08-10T20:00:00.000Z",
+        "location": "Octavius 13",
+        "duration": "Fireside Hax",
+        "abstract": "1984 didn't just happen because of a calendar. The world of 1984 was built by politicians who used the rule of law to change society into an oppressive surveillance state. In Washington D.C., politicians today are making decisions about what technologies we're permitted to use and how they'll be used in society. In this talk we'll break down 4-5 bills currently under discussion in Congress and explain who they'll impact the DEF CON community."
     },
     {
         "title": "Betrayed by the keyboard: How what you type can give you away",
@@ -854,5 +902,252 @@
         "location": "Track 2",
         "duration": "45 minutes",
         "abstract": "Orwell's concept of 1984 has more to do with government misuse of technology than technology itself. New technology allows for more opportunity, but unchecked, it allows for complete government control. Representative Daniel Zolnikov is the nation's leading politician regarding privacy and surveillance and has enacted numerous laws safeguarding fourth amendment rights regarding digital communications and technology. Daniel will walk you down the road of how political misuse of technology can and will turn the Federal Government into an unprecedented nanny state that will lead to a suppressed free flow of information and fear of stepping out of line. His story includes insights on how unique left and right coalitions were formed to pass these laws in his home state of Montana, and how he prevailed against law enforcement groups who opposed implementing warrant requirements. This discussion is aimed at sharing insights no matter your political affiliation. All of Daniel's legislation has passed with overwhelming bi-partisan support through both bodies in Montana's legislature and was signed by the governor of the opposite party. Although most speeches involving politicians tend to lead towards rhetoric, Daniel's goal is to share enough information to be able to understand why change has not taken place yet, and leave you understanding how to remedy that. His story will give you insights into the politics that states and the nation face when reforming these issues, and his down to earth approach will bring the topic down to a level of humor and easy understanding. There is no need for any technical or political insight to be able to appreciate this topic and the work Daniel has done on behalf of the more technologically savvy enthusiasts. The theme of DEF CON 26 would be inconsistent without taking into consideration policy and how it ties in closely with technology. Technology relies on policy, and policy has the implications of dictating the use of technology. The two can go hand in hand, or end up squaring up against each other. You are an important, and lesser heard voice in the world of aged politicians with limited vision. The Orwellian state existed due to a mixture of bad policies and technology. Although the theme focuses on technology used to disrupt the surveillance state, the other half of the battle is ensuring this state does not reach the disastrous conclusions of 1984. Daniel believes we can move forward with technology without living in fear of our government. If you want to have some hope and direction towards the future of policy regarding surveillance and technology, Daniel will leave you with the optimism that there is still a chance that our nation can have a balanced approach that ensures 1984 does not become the norm in the future and will help you understand how to take part in this action."
+    },
+    {
+        "time": "2018-08-10T10:00:00.000Z",
+        "speaker": "Rogan Dawes",
+        "title": "Mallet: A Proxy for Arbitrary Traffic",
+        "location": "Packet Hacking Village",
+        "duration": "60 minutes"
+    },
+    {
+        "time": "2018-08-11T10:00:00.000Z",
+        "speaker": "Esteban Rodriguez",
+        "title": "Ducky-in-the-Middle: Injecting Keystrokes into Plaintext Protocols",
+        "location": "Packet Hacking Village",
+        "duration": "30 minutes"
+    },
+    {
+        "time": "2018-08-12T10:00:00.000Z",
+        "title": "CLOSED",
+        "location": "Packet Hacking Village",
+        "duration": "30 minutes"
+    },
+    {
+        "time": "2018-08-11T10:30:00.000Z",
+        "speaker": "Gita Ziabari",
+        "title": "How to Tune Automation to Avoid False Positives",
+        "location": "Packet Hacking Village",
+        "duration": "30 minutes"
+    },
+    {
+        "time": "2018-08-12T10:30:00.000Z",
+        "title": "CLOSED",
+        "location": "Packet Hacking Village",
+        "duration": "30 minutes"
+    },
+    {
+        "time": "2018-08-10T11:00:00.000Z",
+        "speaker": "Kat Sweet",
+        "title": "Rethinking Role-Based Security Education",
+        "location": "Packet Hacking Village",
+        "duration": "60 minutes"
+    },
+    {
+        "time": "2018-08-11T11:00:00.000Z",
+        "speaker": "Alex Stanev",
+        "title": "wpa-sec: The Largest Online WPA Handshake Database",
+        "location": "Packet Hacking Village",
+        "duration": "30 minutes"
+    },
+    {
+        "time": "2018-08-12T11:00:00.000Z",
+        "speaker": "gh057",
+        "title": "Microcontrollers and Single Board Computers for Hacking, Fun and Profit",
+        "location": "Packet Hacking Village",
+        "duration": "60 minutes"
+    },
+    {
+        "time": "2018-08-12T11:30:00.000Z",
+        "speaker": "Silas Cutler",
+        "title": "Capturing in Hard to Reach Places",
+        "location": "Packet Hacking Village",
+        "duration": "30 minutes"
+    },
+    {
+        "time": "2018-08-10T12:00:00.000Z",
+        "speaker": "TryCatchHCF",
+        "title": "PacketWhisper: Stealthily Exfiltrating Data and Defeating Attribution Using DNS and Text-Based Steganography",
+        "location": "Packet Hacking Village",
+        "duration": "60 minutes"
+    },
+    {
+        "time": "2018-08-11T12:00:00.000Z",
+        "speaker": "Lokesh Pidawekar",
+        "title": "An OSINT Approach to Third Party Cloud Service Provider Evaluation",
+        "location": "Packet Hacking Village",
+        "duration": "30 minutes"
+    },
+    {
+        "time": "2018-08-12T12:00:00.000Z",
+        "speaker": "Joseph Muniz, Aamir Lakhani",
+        "title": "Fishing for Phishers. The Enterprise Strikes Back!",
+        "location": "Packet Hacking Village",
+        "duration": "60 minutes"
+    },
+    {
+        "time": "2018-08-12T12:30:00.000Z",
+        "speaker": "Ed Miles",
+        "title": "Bitsquatting: Passive DNS Hijacking",
+        "location": "Packet Hacking Village",
+        "duration": "30 minutes"
+    },
+    {
+        "time": "2018-08-10T13:00:00.000Z",
+        "speaker": "Garett Montgomery",
+        "title": "Target-Based Security Model",
+        "location": "Packet Hacking Village",
+        "duration": "60 minutes"
+    },
+    {
+        "time": "2018-08-11T13:00:00.000Z",
+        "speaker": "Hadar Yudovich, Tom Kahana, Tom Sela",
+        "title": "Turning Deception Outside-In: Tricking Attackers with OSINT",
+        "location": "Packet Hacking Village",
+        "duration": "30 minutes"
+    },
+    {
+        "time": "2018-08-12T13:00:00.000Z",
+        "speaker": "Damon &quot;ch3f&quot; Small",
+        "title": "What Do You Want to be When You Grow Up?Damon \"ch3f\" Small",
+        "location": "Packet Hacking Village",
+        "duration": "60 minutes"
+    },
+    {
+        "time": "2018-08-12T13:30:00.000Z",
+        "speaker": "Sam Erb",
+        "title": "Defense in Depth: The Path to SGX at Akamai",
+        "location": "Packet Hacking Village",
+        "duration": "30 minutes"
+    },
+    {
+        "time": "2018-08-10T14:00:00.000Z",
+        "speaker": "Pedro Fortuna",
+        "title": "Protecting Crypto Exchanges From a New Wave of Man-in-the-Browser Attacks",
+        "location": "Packet Hacking Village",
+        "duration": "60 minutes"
+    },
+    {
+        "time": "2018-08-11T14:00:00.000Z",
+        "speaker": "Andrew Johnson",
+        "title": "Building a Teaching SOC",
+        "location": "Packet Hacking Village",
+        "duration": "30 minutes"
+    },
+    {
+        "time": "2018-08-12T14:00:00.000Z",
+        "title": "CLOSED",
+        "location": "Packet Hacking Village",
+        "duration": "30 minutes"
+    },
+    {
+        "time": "2018-08-11T14:30:00.000Z",
+        "speaker": " Utku Sen, Gozde Sinturk",
+        "title": "Normalizing Empire's Traffic to Evade Anomaly-Based IDS",
+        "location": "Packet Hacking Village",
+        "duration": "30 minutes"
+    },
+    {
+        "time": "2018-08-12T14:30:00.000Z",
+        "title": "CLOSED",
+        "location": "Packet Hacking Village",
+        "duration": "30 minutes"
+    },
+    {
+        "time": "2018-08-10T15:00:00.000Z",
+        "speaker": "Elliott Brink",
+        "title": "Freedom of Information: Hacking the Human Black Box",
+        "location": "Packet Hacking Village",
+        "duration": "60 minutes"
+    },
+    {
+        "time": "2018-08-11T15:00:00.000Z",
+        "speaker": "Huajiang &quot;Kevin2600&quot; Chen, Jin Yang",
+        "title": "Grand Theft Auto: Digital Key HackingHuajiang \"Kevin2600\" Chen, Jin Yang",
+        "location": "Packet Hacking Village",
+        "duration": "60 minutes"
+    },
+    {
+        "time": "2018-08-12T15:00:00.000Z",
+        "title": "CLOSED",
+        "location": "Packet Hacking Village",
+        "duration": "30 minutes"
+    },
+    {
+        "time": "2018-08-12T15:30:00.000Z",
+        "title": "CLOSED",
+        "location": "Packet Hacking Village",
+        "duration": "30 minutes"
+    },
+    {
+        "time": "2018-08-10T16:00:00.000Z",
+        "speaker": "Jay Turla",
+        "title": "Car Infotainment Hacking Methodology and Attack Surface Scenarios",
+        "location": "Packet Hacking Village",
+        "duration": "60 minutes"
+    },
+    {
+        "time": "2018-08-11T16:00:00.000Z",
+        "speaker": "Josh Mitchell",
+        "title": "Ridealong Adventures: Critical Issues with Police Body Cameras",
+        "location": "Packet Hacking Village",
+        "duration": "60 minutes"
+    },
+    {
+        "time": "2018-08-12T16:00:00.000Z",
+        "title": "CLOSED",
+        "location": "Packet Hacking Village",
+        "duration": "30 minutes"
+    },
+    {
+        "time": "2018-08-12T16:30:00.000Z",
+        "title": "CLOSED",
+        "location": "Packet Hacking Village",
+        "duration": "30 minutes"
+    },
+    {
+        "time": "2018-08-10T17:00:00.000Z",
+        "speaker": "Chris Hanlon",
+        "title": "Swiss Cheese Holes in the Foundation of Modern Security - CERT VU#919801",
+        "location": "Packet Hacking Village",
+        "duration": "60 minutes"
+    },
+    {
+        "time": "2018-08-11T17:00:00.000Z",
+        "speaker": "Mike Raggo, Chet Hosmer",
+        "title": "IoT Data Exfiltration",
+        "location": "Packet Hacking Village",
+        "duration": "60 minutes"
+    },
+    {
+        "time": "2018-08-12T17:00:00.000Z",
+        "title": "CLOSED",
+        "location": "Packet Hacking Village",
+        "duration": "30 minutes"
+    },
+    {
+        "time": "2018-08-12T17:30:00.000Z",
+        "title": "CLOSED",
+        "location": "Packet Hacking Village",
+        "duration": "30 minutes"
+    },
+    {
+        "time": "2018-08-10T18:00:00.000Z",
+        "speaker": "Caleb Madrigal",
+        "title": "Mapping Wi-Fi Networks and Triggering on Interesting Traffic Patterns",
+        "location": "Packet Hacking Village",
+        "duration": "30 minutes"
+    },
+    {
+        "time": "2018-08-11T18:00:00.000Z",
+        "title": "",
+        "location": "Packet Hacking Village",
+        "duration": "30 minutes"
+    },
+    {
+        "time": "2018-08-12T18:00:00.000Z",
+        "title": "CLOSED",
+        "location": "Packet Hacking Village",
+        "duration": "30 minutes"
     }
 ]

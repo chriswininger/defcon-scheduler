@@ -29,3 +29,23 @@ body {
 td.timeCol {
   width: 14%;
 }
+
+hr {
+  border-color: white;
+}
+
+td.day9 {
+  background-color: darkblue;
+}
+
+td.day10 {
+  background-color: darkgreen;
+}
+
+td.day11 {
+  background-color: darkviolet;
+}
+
+td.day12 {
+  background-color: darkgoldenrod;
+}
