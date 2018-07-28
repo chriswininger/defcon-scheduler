@@ -17,9 +17,9 @@ export default class Calendar extends React.Component {
     const talksByTime = groupTalksByHourAndRooms(this.state.talks)
     const times = Object.keys(talksByTime)
 
-    const headersJSX = locations.map((location) => {
+    const headersJSX = locations.map((location, i) => {
       return (
-          <th scope="col" className={colClasses}>
+          <th scope="col" className={colClasses} key={i + '-header'}>
             { location }
           </th>)
     })

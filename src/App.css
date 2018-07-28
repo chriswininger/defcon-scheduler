@@ -49,3 +49,18 @@ td.day11 {
 td.day12 {
   background-color: darkgoldenrod;
 }
+
+td.talk-col {
+  padding: 0;
+}
+
+div.talk-divider {
+  border-bottom: 1px solid white;
+}
+
+div.talk-title {
+  padding: .75em;
+}
+input.talk-check {
+  float: left;
+}

@@ -1,0 +1,194 @@
+[
+  {
+    "title": "Story Time - Biggest ITSec fuck-ups I've seen over the past 25 years.",
+    "speaker": "",
+    "time": "2018-08-10T09:00:00.000Z",
+    "location": "Sky Talks",
+    "duration": "60 minutes"
+  },
+  {
+    "title": "Stalker In A Haystack",
+    "speaker": "",
+    "time": "2018-08-10T10:00:00.000Z",
+    "location": "Sky Talks",
+    "duration": "60 minutes"
+  },
+  {
+    "title": "Deconstructing DeFeNeStRaTe.C: The first public buffer overflow on a mainframe?",
+    "speaker": "",
+    "time": "2018-08-10T11:00:00.000Z",
+    "location": "Sky Talks",
+    "duration": "60 minutes"
+  },
+  {
+    "title": "When Incident Response Meets Reality",
+    "speaker": "",
+    "time": "2018-08-10T12:00:00.000Z",
+    "location": "Sky Talks",
+    "duration": "60 minutes"
+  },
+  {
+    "title": "Practical attack simulations in Critical National Infrastructure (CNI): Oh the perils, or oh the fun?",
+    "speaker": "",
+    "time": "2018-08-10T13:00:00.000Z",
+    "location": "Sky Talks",
+    "duration": "30 minutes"
+  },
+  {
+    "title": "penetration testing sex toys: \"I've seen things you people wouldn't believe\"",
+    "speaker": "",
+    "time": "2018-08-10T13:30:00.000Z",
+    "location": "Sky Talks",
+    "duration": "30 minutes"
+  },
+  {
+    "title": "From MormonLeaks to FaithLeaks",
+    "speaker": "",
+    "time": "2018-08-10T14:00:00.000Z",
+    "location": "Sky Talks",
+    "duration": "60 minutes"
+  },
+  {
+    "title": "OSINT IS FOR SOCCER MOMS & UNSOLVED HOMICIDE INVESTIGATIONS",
+    "speaker": "",
+    "time": "2018-08-10T15:00:00.000Z",
+    "location": "Sky Talks",
+    "duration": "60 minutes"
+  },
+  {
+    "title": "Robots and AI: What scares the experts?",
+    "speaker": "",
+    "time": "2018-08-10T16:00:00.000Z",
+    "location": "Sky Talks",
+    "duration": "60 minutes"
+  },
+  {
+    "title": "The Least Common Denominator Strategy (AKA Don't make DevOps too easy)",
+    "speaker": "",
+    "time": "2018-08-10T17:00:00.000Z",
+    "location": "Sky Talks",
+    "duration": "60 minutes"
+  },
+  {
+    "title": "Real Simple Blue Team Shit",
+    "speaker": "",
+    "time": "2018-08-10T18:00:00.000Z",
+    "location": "Sky Talks",
+    "duration": "60 minutes"
+  },
+
+
+  {
+    "title": "What happened behind the closed doors at MS",
+    "speaker": "",
+    "time": "2018-08-11T09:00:00.000Z",
+    "location": "Sky Talks",
+    "duration": "30 minutes"
+  },
+  {
+    "title": "http2 and you",
+    "speaker": "",
+    "time": "2018-08-11T09:30:00.000Z",
+    "location": "Sky Talks",
+    "duration": "30 minutes"
+  },
+  {
+    "title": "Don't Bring Me Down: Weaponizing botnets",
+    "speaker": "",
+    "time": "2018-08-11T10:00:00.000Z",
+    "location": "Sky Talks",
+    "duration": "60 minutes"
+  },
+  {
+    "title": "The Abyss is Waving Back...",
+    "speaker": "",
+    "time": "2018-08-11T11:00:00.000Z",
+    "location": "Sky Talks",
+    "duration": "60 minutes"
+  },
+  {
+    "title": "Cloud Security Myths",
+    "speaker": "",
+    "time": "2018-08-11T12:00:00.000Z",
+    "location": "Sky Talks",
+    "duration": "60 minutes"
+  },
+  {
+    "title": "Exploiting IoT Communications - A Cover within a Cover",
+    "speaker": "",
+    "time": "2018-08-11T13:00:00.000Z",
+    "location": "Sky Talks",
+    "duration": "60 minutes"
+  },
+  {
+    "title": "Hacking the Technical Interview",
+    "speaker": "",
+    "time": "2018-08-11T14:00:00.000Z",
+    "location": "Sky Talks",
+    "duration": "60 minutes"
+  },
+  {
+    "title": "Leveling the Bug Bounty Playfield - Introducing the #LEGALBUGBOUNTY project",
+    "speaker": "",
+    "time": "2018-08-11T15:00:00.000Z",
+    "location": "Sky Talks",
+    "duration": "60 minutes"
+  },
+  {
+    "title": "Healthcare Exposure on Public Internet",
+    "speaker": "",
+    "time": "2018-08-11T16:00:00.000Z",
+    "location": "Sky Talks",
+    "duration": "60 minutes"
+  },
+  {
+    "title": "The challenge of building an secure and safe digital environment in healthcare",
+    "speaker": "",
+    "time": "2018-08-11T17:00:00.000Z",
+    "location": "Sky Talks",
+    "duration": "60 minutes"
+  },
+  {
+    "title": "Macabre stories of a hacker in the public health sector (Chile)",
+    "speaker": "",
+    "time": "2018-08-11T18:00:00.000Z",
+    "location": "Sky Talks",
+    "duration": "60 minutes"
+  },
+
+  {
+    "title": "Master Baiting! Don't Click Bait, Click Yourself",
+    "speaker": "",
+    "time": "2018-08-12T09:00:00.000Z",
+    "location": "Sky Talks",
+    "duration": "60 minutes"
+  },
+  {
+    "title": "Facial Recognition -- Let me let you in on a secret",
+    "speaker": "",
+    "time": "2018-08-12T10:00:00.000Z",
+    "location": "Sky Talks",
+    "duration": "60 minutes"
+  },
+  {
+    "title": "Sex Work After SESTA",
+    "speaker": "",
+    "time": "2018-08-12T11:00:00.000Z",
+    "location": "Sky Talks",
+    "duration": "60 minutes"
+  },
+  {
+    "title": "Alphathreat Soup: Burning Threat Actors with Data",
+    "speaker": "",
+    "time": "2018-08-12T12:00:00.000Z",
+    "location": "Sky Talks",
+    "duration": "60 minutes"
+  },
+  {
+    "title": "Game Runner 2049: The Battles Fought by the King of Replicants",
+    "speaker": "",
+    "time": "2018-08-12T13:00:00.000Z",
+    "location": "Sky Talks",
+    "duration": "60 minutes"
+  }
+]
