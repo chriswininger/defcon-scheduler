@@ -2,11 +2,13 @@ const axios = require('axios')
 const async = require('async')
 const fs = require('fs')
 const mainSiteParse = require(__dirname + '/parsers/mainSiteParse')
-const sheepParse = require(__dirname + '/parsers/sheepParse')
+const sheepParse =    require(__dirname + '/parsers/sheepParse')
+const bioParse =      require(__dirname + '/parsers/bioParse')
 
 const sourceMain = 'https://www.defcon.org/html/defcon-26/dc-26-speakers.html'
 const sourceSheep = 'https://www.wallofsheep.com/blogs/news/list-of-packet-hacking-village-talks-at-def-con-26-finalized'
-const skySource = __dirname + '/../public/talksSky.json'
+const skySource = __dirname + '/../public/talksSky.json' // got lazy and just created json by hand
+const sourceBio = 'https://www.defconbiohackingvillage.org/'
 
 async.waterfall([
   _next => {
@@ -35,8 +37,13 @@ async.waterfall([
         return _next(err)
       }
 
-      console.log('!!! data: ' + data)
       _next(null, [...talks, ...JSON.parse(data)])
+    })
+  },
+  (talks, _next) => {
+    axios.get(sourceBio).then(resp => {
+       const bioTalks = bioParse(resp.data)
+      _next(null, [...talks])
     })
   }
 ], (err, talks) => {

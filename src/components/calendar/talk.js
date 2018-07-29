@@ -1,14 +1,16 @@
 import React from 'react'
+import { genTalkID, isTalkSelected, getTimeComponent, getDayOfWeek } from '../../utils/utils'
 
 export default class Talk extends React.Component {
 
   constructor(props) {
     super(props)
-    const idString = props.talk.title.replace(/\s/g, '_').replace(/[",']/g, '')
+    const talk = props.talk
+    const idString = genTalkID(talk)
     this.state = {
       ...props,
       idString,
-      checked: localStorage.getItem(idString) === 'checked'
+      checked: isTalkSelected(talk)
     }
 
     window.addEventListener('storage', e => {
@@ -20,7 +22,7 @@ export default class Talk extends React.Component {
   }
 
   getChecked() {
-    return this.state.checked || localStorage.getItem(this.state.idString) === 'checked'
+    return this.state.checked
   }
 
   setChecked(checked, skipStorage) {
@@ -40,13 +42,8 @@ export default class Talk extends React.Component {
   render() {
     const { talk, numTalksInSlot, uid, idString } = this.state
 
-    const getDayOfWeek = (dt) => {
-      const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
-      return days[dt.getDay()]
-    }
-
     const date = new Date(talk.time)
-    const talkTime = date.toLocaleTimeString('en-US', {timeZone: 'UTC'})
+    const talkTime = getTimeComponent(date)
     const talkSlot = (
         <div
             key={'talk-title- ' + uid}

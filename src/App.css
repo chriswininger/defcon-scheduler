@@ -64,3 +64,27 @@ div.talk-title {
 input.talk-check {
   float: left;
 }
+
+.event-list-dialog {
+  text-align: left;
+}
+
+@media screen {
+  #printSection {
+    display: none;
+  }
+}
+
+@media print {
+  body * {
+    visibility: collapse;
+  }
+  div.print-section, div.print-section * {
+    visibility:visible;
+  }
+  div.print-section {
+    position:absolute;
+    left:0;
+    top:0;
+  }
+}

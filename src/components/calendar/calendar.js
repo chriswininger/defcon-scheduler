@@ -8,7 +8,7 @@ import Talks from './talks'
 export default class Calendar extends React.Component {
   constructor(props) {
     super(props)
-    this.state = { talks: [] }
+    this.state = {...props, talks: [] }
   }
 
   render() {
