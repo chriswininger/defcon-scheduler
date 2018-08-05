@@ -1340,183 +1340,213 @@
         "duration": "60 minutes"
     },
     {
-        "time": "Fri, 10 Aug 2018 14:00:00 GMT",
         "title": "Welcome",
         "location": "Crypto Village",
-        "speaker": ""
+        "speaker": "",
+        "time": "Fri, 10 Aug 2018 10:00:00 GMT",
+        "duration": 30
     },
     {
-        "time": "Fri, 10 Aug 2018 14:30:00 GMT",
         "title": "\"Won't Somebody Think of the Children?\" Examining COPPA Compliance at Scale",
         "location": "Crypto Village",
-        "speaker": ""
+        "speaker": "",
+        "time": "Fri, 10 Aug 2018 10:30:00 GMT",
+        "duration": 30
     },
     {
-        "time": "Fri, 10 Aug 2018 15:00:00 GMT",
         "title": "Hamilton's Private Key: American Exceptionalism and the Right to Anonymity",
         "location": "Crypto Village",
-        "speaker": ""
+        "speaker": "",
+        "time": "Fri, 10 Aug 2018 11:00:00 GMT",
+        "duration": 60
     },
     {
-        "time": "Sat, 11 Aug 2018 04:00:00 GMT",
         "title": "Cryptography, Codes, and Secret Writing: An Introduction to Secret Communications",
         "location": "Crypto Village",
-        "speaker": ""
+        "speaker": "",
+        "time": "Fri, 10 Aug 2018 12:00:00 GMT",
+        "duration": 90
     },
     {
-        "time": "Fri, 10 Aug 2018 17:30:00 GMT",
         "title": "Opportunistic Onion: More Protection Some of the Time",
         "location": "Crypto Village",
-        "speaker": ""
+        "speaker": "",
+        "time": "Fri, 10 Aug 2018 13:30:00 GMT",
+        "duration": 30
     },
     {
-        "time": "Fri, 10 Aug 2018 18:00:00 GMT",
         "title": "\"Probably\": an Irreverent Overview of the GDPR",
         "location": "Crypto Village",
-        "speaker": ""
+        "speaker": "",
+        "time": "Fri, 10 Aug 2018 14:00:00 GMT",
+        "duration": 60
     },
     {
-        "time": "Fri, 10 Aug 2018 19:00:00 GMT",
         "title": "Hiding in plain sight: Disguising HTTPS traffic with domain-fronting",
         "location": "Crypto Village",
-        "speaker": ""
+        "speaker": "",
+        "time": "Fri, 10 Aug 2018 15:00:00 GMT",
+        "duration": 60
     },
     {
-        "time": "Fri, 10 Aug 2018 20:00:00 GMT",
         "title": "Cicada: What the Puzzles Can Teach Us About Cryptography and Privacy.",
         "location": "Crypto Village",
-        "speaker": ""
+        "speaker": "",
+        "time": "Fri, 10 Aug 2018 16:00:00 GMT",
+        "duration": 60
     },
     {
-        "time": "Fri, 10 Aug 2018 21:00:00 GMT",
         "title": "Revolutionizing Authentication with Oblivious Cryptography",
         "location": "Crypto Village",
-        "speaker": ""
+        "speaker": "",
+        "time": "Fri, 10 Aug 2018 17:00:00 GMT",
+        "duration": 60
     },
     {
-        "time": "Fri, 10 Aug 2018 22:00:00 GMT",
         "title": "Announcing the Underhanded Crypto Contest Winners",
         "location": "Crypto Village",
-        "speaker": ""
+        "speaker": "",
+        "time": "Fri, 10 Aug 2018 18:00:00 GMT",
+        "duration": 30
     },
     {
-        "time": "Fri, 10 Aug 2018 22:30:00 GMT",
         "title": "Closing Time",
         "location": "Crypto Village",
-        "speaker": ""
+        "speaker": "",
+        "time": "Fri, 10 Aug 2018 18:30:00 GMT",
+        "duration": 30
     },
     {
-        "time": "Sat, 11 Aug 2018 14:00:00 GMT",
         "title": "Welcome",
         "location": "Crypto Village",
-        "speaker": ""
+        "speaker": "",
+        "time": "Sat, 11 Aug 2018 10:00:00 GMT",
+        "duration": 30
     },
     {
-        "time": "Sat, 11 Aug 2018 14:30:00 GMT",
         "title": "Cloud Encryption: How to not suck at securing your encryption keys",
         "location": "Crypto Village",
-        "speaker": ""
+        "speaker": "",
+        "time": "Sat, 11 Aug 2018 10:30:00 GMT",
+        "duration": 60
     },
     {
-        "time": "Sat, 11 Aug 2018 15:30:00 GMT",
         "title": "Green Locks for You and Me",
         "location": "Crypto Village",
-        "speaker": ""
+        "speaker": "",
+        "time": "Sat, 11 Aug 2018 11:30:00 GMT",
+        "duration": 30
     },
     {
-        "time": "Sun, 12 Aug 2018 04:00:00 GMT",
         "title": "No Way JOSE! Designing Cryptography Features for Mere Mortals",
         "location": "Crypto Village",
-        "speaker": ""
+        "speaker": "",
+        "time": "Sat, 11 Aug 2018 12:00:00 GMT",
+        "duration": 60
     },
     {
-        "time": "Sat, 11 Aug 2018 17:00:00 GMT",
         "title": "Sluts, Bullies, and Best Selves: Rethinking Digital Privacy Education",
         "location": "Crypto Village",
-        "speaker": ""
+        "speaker": "",
+        "time": "Sat, 11 Aug 2018 13:00:00 GMT",
+        "duration": 30
     },
     {
-        "time": "Sat, 11 Aug 2018 17:30:00 GMT",
         "title": "Building a Cryptographic Backdoor in OpenSSL",
         "location": "Crypto Village",
-        "speaker": ""
+        "speaker": "",
+        "time": "Sat, 11 Aug 2018 13:30:00 GMT",
+        "duration": 30
     },
     {
-        "time": "Sat, 11 Aug 2018 18:00:00 GMT",
         "title": "CATs - A Tale of Scalable Authentication",
         "location": "Crypto Village",
-        "speaker": ""
+        "speaker": "",
+        "time": "Sat, 11 Aug 2018 14:00:00 GMT",
+        "duration": 30
     },
     {
-        "time": "Sat, 11 Aug 2018 18:30:00 GMT",
         "title": "Jailed by a Google Search: the Surveillance State's War on Self-induced Abortion",
         "location": "Crypto Village",
-        "speaker": ""
+        "speaker": "",
+        "time": "Sat, 11 Aug 2018 14:30:00 GMT",
+        "duration": 30
     },
     {
-        "time": "Sat, 11 Aug 2018 19:00:00 GMT",
         "title": "JARVIS never saw it coming: Hacking machine learning (ML) in speech, text and face recognition - and frankly, everywhere else",
         "location": "Crypto Village",
-        "speaker": ""
+        "speaker": "",
+        "time": "Sat, 11 Aug 2018 15:00:00 GMT",
+        "duration": 60
     },
     {
-        "time": "Sat, 11 Aug 2018 20:00:00 GMT",
         "title": "Anonymous rate-limiting in services with Direct Anonymous Attestation",
         "location": "Crypto Village",
-        "speaker": ""
+        "speaker": "",
+        "time": "Sat, 11 Aug 2018 16:00:00 GMT",
+        "duration": 60
     },
     {
-        "time": "Sat, 11 Aug 2018 21:00:00 GMT",
         "title": "Prototyping Cryptographic Protocols With Charm",
         "location": "Crypto Village",
-        "speaker": ""
+        "speaker": "",
+        "time": "Sat, 11 Aug 2018 17:00:00 GMT",
+        "duration": 60
     },
     {
-        "time": "Sat, 11 Aug 2018 22:00:00 GMT",
         "title": "(Not Recorded) Ask Me Anything about Tor: AMA with Roger Dingledine",
         "location": "Crypto Village",
-        "speaker": ""
+        "speaker": "",
+        "time": "Sat, 11 Aug 2018 18:00:00 GMT",
+        "duration": 30
     },
     {
-        "time": "Sat, 11 Aug 2018 22:30:00 GMT",
         "title": "Closing",
         "location": "Crypto Village",
-        "speaker": ""
+        "speaker": "",
+        "time": "Sat, 11 Aug 2018 18:30:00 GMT",
+        "duration": 30
     },
     {
-        "time": "Sun, 12 Aug 2018 14:00:00 GMT",
         "title": "Welcome",
         "location": "Crypto Village",
-        "speaker": ""
+        "speaker": "",
+        "time": "Sun, 12 Aug 2018 10:00:00 GMT",
+        "duration": 30
     },
     {
-        "time": "Sun, 12 Aug 2018 14:30:00 GMT",
         "title": "Geolocation and Homomorphic Encryption",
         "location": "Crypto Village",
-        "speaker": ""
+        "speaker": "",
+        "time": "Sun, 12 Aug 2018 10:30:00 GMT",
+        "duration": 30
     },
     {
-        "time": "Sun, 12 Aug 2018 15:00:00 GMT",
         "title": "Two-Steps to Owning MFA",
         "location": "Crypto Village",
-        "speaker": ""
+        "speaker": "",
+        "time": "Sun, 12 Aug 2018 11:00:00 GMT",
+        "duration": 60
     },
     {
-        "time": "Mon, 13 Aug 2018 04:00:00 GMT",
         "title": "Implementing a Library for Pairing-based Transform Cryptography",
         "location": "Crypto Village",
-        "speaker": ""
+        "speaker": "",
+        "time": "Sun, 12 Aug 2018 12:00:00 GMT",
+        "duration": 60
     },
     {
-        "time": "Sun, 12 Aug 2018 17:00:00 GMT",
         "title": "Integrating post-quantum crypto into real-life applications",
         "location": "Crypto Village",
-        "speaker": ""
+        "speaker": "",
+        "time": "Sun, 12 Aug 2018 13:00:00 GMT",
+        "duration": 60
     },
     {
-        "time": "Sun, 12 Aug 2018 18:00:00 GMT",
         "title": "(Not Recorded) Closing Remarks",
         "location": "Crypto Village",
-        "speaker": ""
+        "speaker": "",
+        "time": "Sun, 12 Aug 2018 14:00:00 GMT",
+        "duration": 30
     }
 ]
