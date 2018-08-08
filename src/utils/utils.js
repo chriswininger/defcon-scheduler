@@ -2,6 +2,10 @@ export const genTalkID = (talk) => {
   return talk.title.replace(/\s/g, '_').replace(/[",']/g, '')
 }
 
+export const setTalkSelectedByID = (id) => {
+  localStorage.setItem(id, 'checked')
+}
+
 export const isTalkSelected = (talk) => {
   return localStorage.getItem(genTalkID(talk)) === 'checked'
 }
